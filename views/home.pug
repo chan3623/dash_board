@@ -1,0 +1,111 @@
+doctype html
+html(lang="ko")
+    head    
+        meta(charset="utf-8")
+        title Smart Home Dashboard
+        meta(name="viewport" content="width=device-width, initial-scale=1.0")
+        link(rel="stylesheet" href="/stylesheets/default.css")
+        link(rel="stylesheet" href="/stylesheets/home.css")
+        link(rel="icon" href="/images/home.ico")
+        script(src="/javascripts/home.js")
+        script(src="https://cdn.jsdelivr.net/npm/p5@1.9.0/lib/p5.js")
+        script(src="/javascripts/graphs/donut_graph.js")
+        script(src="/javascripts/graphs/7bar_graph.js")
+        script(src="/javascripts/graphs/line_graph.js")
+        script(src="/javascripts/graphs/today_bar_graph.js")
+        
+    body
+        img.bg_img(src="/images/bg_home.jpg" alt="홈 화면 이미지")
+        //- header
+        div.home_box
+            div.home_list
+                h1.home_tit Smart Home Dashboard
+                div.home_toggle
+                    div.home_info
+                        p#homeDate 
+                        p
+                            span 사용자 
+                            | 님    
+                    button#homeStopStart.home_stop_start.stop_btn(type="button")
+                    label(for="user")
+                        input#admin_move(type="checkbox" role="switch")
+            
+            div.body_flex
+                //- energy
+                section.energy_box
+                    article.energy_list_box
+                        h2 최근 3시간 에너지 사용량
+                        div.flex
+                            div#ele_graph.graph_on
+                            div#gas_graph.graph_on
+                            div#water_graph.graph_on
+                    article.energy_list_box
+                        div.flex
+                            h2 오늘 시간대별 에너지 사용량
+                            div.energy_list_tab
+                                ul
+                                    li 
+                                        button#day_ele_Data_btn.on(type="button") 전기
+                                    li 
+                                        button#day_gas_Data_btn(type="button") 가스
+                                    li 
+                                        button#day_water_Data_btn(type="button") 수도
+                        div.graph_box
+                            div#day_ele_graph.graph.graph_on
+                            div#day_gas_graph.graph
+                            div#day_water_graph.graph
+                    article.energy_list_box
+                        div.flex
+                            h2 7일 에너지 사용량
+                            div.energy_list_tab
+                                ul
+                                    li 
+                                        button#month_ele_Data_btn.on(type="button") 전기
+                                    li 
+                                        button#month_gas_Data_btn(type="button") 가스
+                                    li 
+                                        button#month_water_Data_btn(type="button") 수도
+                        div.graph_box
+                            div#month_ele_graph.graph.graph_on
+                            div#month_gas_graph.graph
+                            div#month_water_graph.graph
+                    article.energy_list_box
+                        h2 현재 누적 예상 금액
+                        div.flex.none
+                            div#donut_graph.graph_on_donut
+                                p.total_txt 총 예상 금액
+                                    span#money_result
+                                    | 원
+                            div.graph_txt
+                                p.money_elec 전기
+                                    span#money_elec
+                                    | 원
+                                p.money_gass 가스
+                                    span#money_gass
+                                    | 원
+                                p.money_water 수도
+                                    span#money_water
+                                    | 원
+                //- environment     
+                aside.environment_box
+                    div.weather_box
+                        div#weather_icon.weather_icon
+                        div.weather_txt_box
+                            p.weather_address 경기도 안산시 단원구
+                            p.weather_txt 
+                                span 20
+                                | °
+                    div.environment_list
+                        p.tit 실내 온도
+                        p.txt
+                            span#average_temperature
+                            | °C
+                    div.environment_list
+                        p.tit 실내 습도
+                        p.txt 
+                            span#average_humidity
+                            | %
+                    div.environment_list
+                        p.tit 공기 청정도
+                        p#weather_color.txt.environment_icon.verygood
+                            span#average_air_condition   

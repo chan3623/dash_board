@@ -1,0 +1,1502 @@
+{
+    "environment": [
+        {
+            "id": "home_01",
+            "user": "룡",
+            "homeAdd": "경기도 안산시 상록구",
+            "homeWeather": "비",
+            "environmentData": [
+                {
+                    "id": "condition_1",
+                    "livingRoom": {
+                        "temperature": 19,
+                        "humidity": 49,
+                        "airCondition": 43
+                    }
+                },
+                {
+                    "id": "condition_2",
+                    "kitchen": {
+                        "temperature": 22,
+                        "humidity": 62,
+                        "airCondition": 40
+                    }
+                },
+                {
+                    "id": "condition_3",
+                    "bathRoom": {
+                        "temperature": 15,
+                        "humidity": 78,
+                        "airCondition": 43
+                    }
+                },
+                {
+                    "id": "condition_4",
+                    "bedRoom": {
+                        "temperature": 21,
+                        "humidity": 55,
+                        "airCondition": 41
+                    }
+                }
+            ]
+        }
+    ],
+    "energyData": [
+        {
+            "id": "d_0",
+            "time": "t_0",
+            "livingRoom": {
+                "elecV": 0.24,
+                "gasV": 0.109
+            },
+            "kitchen": {
+                "elecV": 0.15,
+                "gasV": 0.054,
+                "waterV": 12
+            },
+            "bathRoom": {
+                "elecV": 0.03,
+                "gasV": 0.013,
+                "waterV": 12
+            },
+            "bedRoom1": {
+                "elecV": 0.29,
+                "gasV": 0.162
+            },
+            "bedRoom2": {
+                "elecV": 0.15,
+                "gasV": 0.039
+            }
+        },
+        {
+            "id": "d_1",
+            "time": "t_1",
+            "livingRoom": {
+                "elecV": 0.24,
+                "gasV": 0.109
+            },
+            "kitchen": {
+                "elecV": 0.04,
+                "gasV": 0.054,
+                "waterV": 12
+            },
+            "bathRoom": {
+                "elecV": 0.03,
+                "gasV": 0.013,
+                "waterV": 15
+            },
+            "bedRoom1": {
+                "elecV": 0.31,
+                "gasV": 0.149
+            },
+            "bedRoom2": {
+                "elecV": 0.12,
+                "gasV": 0.05
+            }
+        },
+        {
+            "id": "d_2",
+            "time": "t_2",
+            "livingRoom": {
+                "elecV": 0.24,
+                "gasV": 0.109
+            },
+            "kitchen": {
+                "elecV": 0.18,
+                "gasV": 0.054,
+                "waterV": 12
+            },
+            "bathRoom": {
+                "elecV": 0.03,
+                "gasV": 0.013,
+                "waterV": 4
+            },
+            "bedRoom1": {
+                "elecV": 0.31,
+                "gasV": 0.149
+            },
+            "bedRoom2": {
+                "elecV": 0.1,
+                "gasV": 0.089
+            }
+        },
+        {
+            "id": "d_3",
+            "time": "t_3",
+            "livingRoom": {
+                "elecV": 0.28,
+                "gasV": 0.115
+            },
+            "kitchen": {
+                "elecV": 0.23,
+                "gasV": 0.058,
+                "waterV": 14
+            },
+            "bathRoom": {
+                "elecV": 0.04,
+                "gasV": 0.015,
+                "waterV": 13
+            },
+            "bedRoom1": {
+                "elecV": 0.33,
+                "gasV": 0.155
+            },
+            "bedRoom2": {
+                "elecV": 0.18,
+                "gasV": 0.043
+            }
+        },
+        {
+            "id": "d_4",
+            "time": "t_4",
+            "livingRoom": {
+                "elecV": 0.3,
+                "gasV": 0.12
+            },
+            "kitchen": {
+                "elecV": 0.25,
+                "gasV": 0.062,
+                "waterV": 12
+            },
+            "bathRoom": {
+                "elecV": 0.05,
+                "gasV": 0.018,
+                "waterV": 3
+            },
+            "bedRoom1": {
+                "elecV": 0.33,
+                "gasV": 0.16
+            },
+            "bedRoom2": {
+                "elecV": 0.2,
+                "gasV": 0.048
+            }
+        },
+        {
+            "id": "d_5",
+            "time": "t_5",
+            "livingRoom": {
+                "elecV": 0.32,
+                "gasV": 0.13
+            },
+            "kitchen": {
+                "elecV": 0.052,
+                "gasV": 0.066,
+                "waterV": 7
+            },
+            "bathRoom": {
+                "elecV": 0.06,
+                "gasV": 0.02,
+                "waterV": 15
+            },
+            "bedRoom1": {
+                "elecV": 0.3,
+                "gasV": 0.165
+            },
+            "bedRoom2": {
+                "elecV": 0.22,
+                "gasV": 0.053
+            }
+        },
+        {
+            "id": "d_6",
+            "time": "d_6",
+            "livingRoom": {
+                "elecV": 0.31,
+                "gasV": 0.14
+            },
+            "kitchen": {
+                "elecV": 0.26,
+                "gasV": 0.07,
+                "waterV": 13
+            },
+            "bathRoom": {
+                "elecV": 0.07,
+                "gasV": 0.023,
+                "waterV": 3
+            },
+            "bedRoom1": {
+                "elecV": 0.24,
+                "gasV": 0.17
+            },
+            "bedRoom2": {
+                "elecV": 0.25,
+                "gasV": 0.058
+            }
+        },
+        {
+            "id": "d_7",
+            "time": "d_7",
+            "livingRoom": {
+                "elecV": 0.31,
+                "gasV": 0.15
+            },
+            "kitchen": {
+                "elecV": 0.18,
+                "gasV": 0.078,
+                "waterV": 2
+            },
+            "bathRoom": {
+                "elecV": 0.08,
+                "gasV": 0.026,
+                "waterV": 6
+            },
+            "bedRoom1": {
+                "elecV": 0.12,
+                "gasV": 0.18
+            },
+            "bedRoom2": {
+                "elecV": 0.28,
+                "gasV": 0.063
+            }
+        },
+        {
+            "id": "d_8",
+            "time": "t_8",
+            "livingRoom": {
+                "elecV": 0.3,
+                "gasV": 2.8
+            },
+            "kitchen": {
+                "elecV": 0.25,
+                "gasV": 2.3,
+                "waterV": 11
+            },
+            "bathRoom": {
+                "elecV": 0.28,
+                "gasV": 2,
+                "waterV": 7
+            },
+            "bedRoom1": {
+                "elecV": 0.32,
+                "gasV": 2.5
+            },
+            "bedRoom2": {
+                "elecV": 0.26,
+                "gasV": 2.1
+            }
+        },
+        {
+            "id": "d_1",
+            "time": "t_1",
+            "livingRoom": {
+                "elecV": 0.06,
+                "gasV": 3.42
+            },
+            "kitchen": {
+                "elecV": 0,
+                "gasV": 3.38,
+                "waterV": 13
+            },
+            "bathRoom": {
+                "elecV": 0.26,
+                "gasV": 3.05,
+                "waterV": 1
+            },
+            "bedRoom1": {
+                "elecV": 0.05,
+                "gasV": 1.29
+            },
+            "bedRoom2": {
+                "elecV": 0.21,
+                "gasV": 1.61
+            }
+        },
+        {
+            "id": "d_2",
+            "time": "t_2",
+            "livingRoom": {
+                "elecV": 0.19,
+                "gasV": 0.6
+            },
+            "kitchen": {
+                "elecV": 0.22,
+                "gasV": 0.91,
+                "waterV": 15
+            },
+            "bathRoom": {
+                "elecV": 0.24,
+                "gasV": 2.06,
+                "waterV": 9
+            },
+            "bedRoom1": {
+                "elecV": 0.23,
+                "gasV": 0.45
+            },
+            "bedRoom2": {
+                "elecV": 0.27,
+                "gasV": 0.78
+            }
+        },
+        {
+            "id": "d_3",
+            "time": "t_3",
+            "livingRoom": {
+                "elecV": 0.17,
+                "gasV": 2.64
+            },
+            "kitchen": {
+                "elecV": 0.19,
+                "gasV": 1.27,
+                "waterV": 8
+            },
+            "bathRoom": {
+                "elecV": 0.1,
+                "gasV": 0.16,
+                "waterV": 9
+            },
+            "bedRoom1": {
+                "elecV": 0.21,
+                "gasV": 1.87
+            },
+            "bedRoom2": {
+                "elecV": 0.17,
+                "gasV": 0.74
+            }
+        },
+        {
+            "id": "d_4",
+            "time": "t_4",
+            "livingRoom": {
+                "elecV": 0.28,
+                "gasV": 1.36
+            },
+            "kitchen": {
+                "elecV": 0.23,
+                "gasV": 2.05,
+                "waterV": 10
+            },
+            "bathRoom": {
+                "elecV": 0.28,
+                "gasV": 2.48,
+                "waterV": 7
+            },
+            "bedRoom1": {
+                "elecV": 0.23,
+                "gasV": 1.67
+            },
+            "bedRoom2": {
+                "elecV": 0.17,
+                "gasV": 1.7
+            }
+        },
+        {
+            "id": "d_5",
+            "time": "t_5",
+            "livingRoom": {
+                "elecV": 0.28,
+                "gasV": 3.17
+            },
+            "kitchen": {
+                "elecV": 0.31,
+                "gasV": 1.54,
+                "waterV": 9
+            },
+            "bathRoom": {
+                "elecV": 0.13,
+                "gasV": 0.05,
+                "waterV": 11
+            },
+            "bedRoom1": {
+                "elecV": 0.07,
+                "gasV": 2.15
+            },
+            "bedRoom2": {
+                "elecV": 0.31,
+                "gasV": 1.11
+            }
+        },
+        {
+            "id": "d_6",
+            "time": "t_6",
+            "livingRoom": {
+                "elecV": 0.32,
+                "gasV": 0.74
+            },
+            "kitchen": {
+                "elecV": 0.04,
+                "gasV": 0.82,
+                "waterV": 5
+            },
+            "bathRoom": {
+                "elecV": 0.01,
+                "gasV": 2.9,
+                "waterV": 10
+            },
+            "bedRoom1": {
+                "elecV": 0.11,
+                "gasV": 3.25
+            },
+            "bedRoom2": {
+                "elecV": 0.25,
+                "gasV": 2.24
+            }
+        },
+        {
+            "id": "d_7",
+            "time": "t_7",
+            "livingRoom": {
+                "elecV": 0.08,
+                "gasV": 0.67
+            },
+            "kitchen": {
+                "elecV": 0.1,
+                "gasV": 2.16,
+                "waterV": 14
+            },
+            "bathRoom": {
+                "elecV": 0.21,
+                "gasV": 2.65,
+                "waterV": 14
+            },
+            "bedRoom1": {
+                "elecV": 0.09,
+                "gasV": 0.53
+            },
+            "bedRoom2": {
+                "elecV": 0.14,
+                "gasV": 1.7
+            }
+        },
+        {
+            "id": "d_8",
+            "time": "t_8",
+            "livingRoom": {
+                "elecV": 0.01,
+                "gasV": 2.22
+            },
+            "kitchen": {
+                "elecV": 0.16,
+                "gasV": 2.62,
+                "waterV": 10
+            },
+            "bathRoom": {
+                "elecV": 0.23,
+                "gasV": 0.53,
+                "waterV": 13
+            },
+            "bedRoom1": {
+                "elecV": 0.1,
+                "gasV": 0.79
+            },
+            "bedRoom2": {
+                "elecV": 0.18,
+                "gasV": 2.65
+            }
+        },
+        {
+            "id": "d_9",
+            "time": "t_9",
+            "livingRoom": {
+                "elecV": 0.2,
+                "gasV": 1.73
+            },
+            "kitchen": {
+                "elecV": 0.07,
+                "gasV": 0.56,
+                "waterV": 11
+            },
+            "bathRoom": {
+                "elecV": 0.16,
+                "gasV": 0.99,
+                "waterV": 12
+            },
+            "bedRoom1": {
+                "elecV": 0.17,
+                "gasV": 2.4
+            },
+            "bedRoom2": {
+                "elecV": 0,
+                "gasV": 2.56
+            }
+        },
+        {
+            "id": "d_10",
+            "time": "t_10",
+            "livingRoom": {
+                "elecV": 0.02,
+                "gasV": 3.04
+            },
+            "kitchen": {
+                "elecV": 0.32,
+                "gasV": 3.29,
+                "waterV": 12
+            },
+            "bathRoom": {
+                "elecV": 0.04,
+                "gasV": 1.42,
+                "waterV": 3
+            },
+            "bedRoom1": {
+                "elecV": 0.1,
+                "gasV": 1.22
+            },
+            "bedRoom2": {
+                "elecV": 0.25,
+                "gasV": 2.21
+            }
+        },
+        {
+            "id": "d_11",
+            "time": "t_11",
+            "livingRoom": {
+                "elecV": 0.3,
+                "gasV": 0.23
+            },
+            "kitchen": {
+                "elecV": 0.06,
+                "gasV": 2.64,
+                "waterV": 11
+            },
+            "bathRoom": {
+                "elecV": 0.21,
+                "gasV": 3.48,
+                "waterV": 14
+            },
+            "bedRoom1": {
+                "elecV": 0.24,
+                "gasV": 1.02
+            },
+            "bedRoom2": {
+                "elecV": 0.24,
+                "gasV": 1.19
+            }
+        },
+        {
+            "id": "d_12",
+            "time": "t_12",
+            "livingRoom": {
+                "elecV": 0.01,
+                "gasV": 1.4
+            },
+            "kitchen": {
+                "elecV": 0.24,
+                "gasV": 1.77,
+                "waterV": 6
+            },
+            "bathRoom": {
+                "elecV": 0.25,
+                "gasV": 2.84,
+                "waterV": 9
+            },
+            "bedRoom1": {
+                "elecV": 0.31,
+                "gasV": 2.13
+            },
+            "bedRoom2": {
+                "elecV": 0.05,
+                "gasV": 2.87
+            }
+        },
+        {
+            "id": "d_13",
+            "time": "t_13",
+            "livingRoom": {
+                "elecV": 0.21,
+                "gasV": 0.53
+            },
+            "kitchen": {
+                "elecV": 0.16,
+                "gasV": 2.38,
+                "waterV": 12
+            },
+            "bathRoom": {
+                "elecV": 0.23,
+                "gasV": 0.72,
+                "waterV": 15
+            },
+            "bedRoom1": {
+                "elecV": 0.01,
+                "gasV": 3.31
+            },
+            "bedRoom2": {
+                "elecV": 0.27,
+                "gasV": 0.3
+            }
+        },
+        {
+            "id": "d_14",
+            "time": "t_14",
+            "livingRoom": {
+                "elecV": 0.03,
+                "gasV": 1.2
+            },
+            "kitchen": {
+                "elecV": 0.33,
+                "gasV": 1.19,
+                "waterV": 13
+            },
+            "bathRoom": {
+                "elecV": 0.08,
+                "gasV": 2.34,
+                "waterV": 9
+            },
+            "bedRoom1": {
+                "elecV": 0.08,
+                "gasV": 2.4
+            },
+            "bedRoom2": {
+                "elecV": 0.23,
+                "gasV": 0.41
+            }
+        },
+        {
+            "id": "d_15",
+            "time": "t_15",
+            "livingRoom": {
+                "elecV": 0.12,
+                "gasV": 1.2
+            },
+            "kitchen": {
+                "elecV": 0.26,
+                "gasV": 2.58,
+                "waterV": 8
+            },
+            "bathRoom": {
+                "elecV": 0.12,
+                "gasV": 3.34,
+                "waterV": 8
+            },
+            "bedRoom1": {
+                "elecV": 0.12,
+                "gasV": 3.04
+            },
+            "bedRoom2": {
+                "elecV": 0.07,
+                "gasV": 1.55
+            }
+        },
+        {
+            "id": "d_16",
+            "time": "t_16",
+            "livingRoom": {
+                "elecV": 0.29,
+                "gasV": 0.7
+            },
+            "kitchen": {
+                "elecV": 0.2,
+                "gasV": 0.02,
+                "waterV": 8
+            },
+            "bathRoom": {
+                "elecV": 0.2,
+                "gasV": 2.6,
+                "waterV": 6
+            },
+            "bedRoom1": {
+                "elecV": 0.18,
+                "gasV": 0.55
+            },
+            "bedRoom2": {
+                "elecV": 0.18,
+                "gasV": 1.7
+            }
+        },
+        {
+            "id": "d_17",
+            "time": "t_17",
+            "livingRoom": {
+                "elecV": 0.31,
+                "gasV": 1.78
+            },
+            "kitchen": {
+                "elecV": 0.07,
+                "gasV": 1.76,
+                "waterV": 5
+            },
+            "bathRoom": {
+                "elecV": 0.26,
+                "gasV": 2.35,
+                "waterV": 9
+            },
+            "bedRoom1": {
+                "elecV": 0.01,
+                "gasV": 1.63
+            },
+            "bedRoom2": {
+                "elecV": 0.25,
+                "gasV": 0.13
+            }
+        },
+        {
+            "id": "d_18",
+            "time": "t_18",
+            "livingRoom": {
+                "elecV": 0.33,
+                "gasV": 2.5
+            },
+            "kitchen": {
+                "elecV": 0.19,
+                "gasV": 3.41,
+                "waterV": 3
+            },
+            "bathRoom": {
+                "elecV": 0.11,
+                "gasV": 1.82,
+                "waterV": 5
+            },
+            "bedRoom1": {
+                "elecV": 0.12,
+                "gasV": 1.98
+            },
+            "bedRoom2": {
+                "elecV": 0.26,
+                "gasV": 2.13
+            }
+        },
+        {
+            "id": "d_19",
+            "time": "t_19",
+            "livingRoom": {
+                "elecV": 0.02,
+                "gasV": 2.65
+            },
+            "kitchen": {
+                "elecV": 0.11,
+                "gasV": 2.29,
+                "waterV": 4
+            },
+            "bathRoom": {
+                "elecV": 0.15,
+                "gasV": 1.88,
+                "waterV": 15
+            },
+            "bedRoom1": {
+                "elecV": 0.08,
+                "gasV": 1.64
+            },
+            "bedRoom2": {
+                "elecV": 0.19,
+                "gasV": 0.02
+            }
+        },
+        {
+            "id": "d_20",
+            "time": "t_20",
+            "livingRoom": {
+                "elecV": 0.08,
+                "gasV": 2.86
+            },
+            "kitchen": {
+                "elecV": 0.32,
+                "gasV": 2.56,
+                "waterV": 10
+            },
+            "bathRoom": {
+                "elecV": 0.05,
+                "gasV": 3.44,
+                "waterV": 8
+            },
+            "bedRoom1": {
+                "elecV": 0.16,
+                "gasV": 1.4
+            },
+            "bedRoom2": {
+                "elecV": 0.29,
+                "gasV": 2.88
+            }
+        },
+        {
+            "id": "d_21",
+            "time": "t_21",
+            "livingRoom": {
+                "elecV": 0.14,
+                "gasV": 2.3
+            },
+            "kitchen": {
+                "elecV": 0.1,
+                "gasV": 2.17,
+                "waterV": 15
+            },
+            "bathRoom": {
+                "elecV": 0.04,
+                "gasV": 2.15,
+                "waterV": 10
+            },
+            "bedRoom1": {
+                "elecV": 0.29,
+                "gasV": 0.71
+            },
+            "bedRoom2": {
+                "elecV": 0.24,
+                "gasV": 0.87
+            }
+        },
+        {
+            "id": "d_22",
+            "time": "t_22",
+            "livingRoom": {
+                "elecV": 0.21,
+                "gasV": 1.82
+            },
+            "kitchen": {
+                "elecV": 0.16,
+                "gasV": 2.74,
+                "waterV": 0
+            },
+            "bathRoom": {
+                "elecV": 0.23,
+                "gasV": 0.07,
+                "waterV": 7
+            },
+            "bedRoom1": {
+                "elecV": 0.28,
+                "gasV": 1.01
+            },
+            "bedRoom2": {
+                "elecV": 0.06,
+                "gasV": 1.19
+            }
+        },
+        {
+            "id": "d_23",
+            "time": "t_23",
+            "livingRoom": {
+                "elecV": 0.11,
+                "gasV": 0.41
+            },
+            "kitchen": {
+                "elecV": 0.07,
+                "gasV": 0.68,
+                "waterV": 11
+            },
+            "bathRoom": {
+                "elecV": 0.02,
+                "gasV": 0.48,
+                "waterV": 1
+            },
+            "bedRoom1": {
+                "elecV": 0.1,
+                "gasV": 2.66
+            },
+            "bedRoom2": {
+                "elecV": 0.03,
+                "gasV": 2.8
+            }
+        },
+        {
+            "id": "d_24",
+            "time": "t_24",
+            "livingRoom": {
+                "elecV": 0.21,
+                "gasV": 0.53
+            },
+            "kitchen": {
+                "elecV": 0.33,
+                "gasV": 1.13,
+                "waterV": 7
+            },
+            "bathRoom": {
+                "elecV": 0.18,
+                "gasV": 2.63,
+                "waterV": 8
+            },
+            "bedRoom1": {
+                "elecV": 0.1,
+                "gasV": 0.25
+            },
+            "bedRoom2": {
+                "elecV": 0.28,
+                "gasV": 1.44
+            }
+        },
+        {
+            "id": "d_25",
+            "time": "t_25",
+            "livingRoom": {
+                "elecV": 0.12,
+                "gasV": 0.42
+            },
+            "kitchen": {
+                "elecV": 0.19,
+                "gasV": 0.22,
+                "waterV": 0
+            },
+            "bathRoom": {
+                "elecV": 0.04,
+                "gasV": 0.63,
+                "waterV": 4
+            },
+            "bedRoom1": {
+                "elecV": 0.02,
+                "gasV": 0.7
+            },
+            "bedRoom2": {
+                "elecV": 0.2,
+                "gasV": 1.96
+            }
+        },
+        {
+            "id": "d_26",
+            "time": "t_26",
+            "livingRoom": {
+                "elecV": 0.14,
+                "gasV": 2.64
+            },
+            "kitchen": {
+                "elecV": 0.01,
+                "gasV": 2.21,
+                "waterV": 8
+            },
+            "bathRoom": {
+                "elecV": 0.09,
+                "gasV": 2.73,
+                "waterV": 4
+            },
+            "bedRoom1": {
+                "elecV": 0.29,
+                "gasV": 3.34
+            },
+            "bedRoom2": {
+                "elecV": 0.29,
+                "gasV": 0.83
+            }
+        },
+        {
+            "id": "d_27",
+            "time": "t_27",
+            "livingRoom": {
+                "elecV": 0.19,
+                "gasV": 3.33
+            },
+            "kitchen": {
+                "elecV": 0.11,
+                "gasV": 1.65,
+                "waterV": 3
+            },
+            "bathRoom": {
+                "elecV": 0.23,
+                "gasV": 2.98,
+                "waterV": 10
+            },
+            "bedRoom1": {
+                "elecV": 0.12,
+                "gasV": 0.25
+            },
+            "bedRoom2": {
+                "elecV": 0.13,
+                "gasV": 3.39
+            }
+        },
+        {
+            "id": "d_28",
+            "time": "t_28",
+            "livingRoom": {
+                "elecV": 0.13,
+                "gasV": 2.59
+            },
+            "kitchen": {
+                "elecV": 0.17,
+                "gasV": 2.56,
+                "waterV": 3
+            },
+            "bathRoom": {
+                "elecV": 0.12,
+                "gasV": 1.97,
+                "waterV": 9
+            },
+            "bedRoom1": {
+                "elecV": 0.11,
+                "gasV": 2.69
+            },
+            "bedRoom2": {
+                "elecV": 0,
+                "gasV": 0.25
+            }
+        },
+        {
+            "id": "d_29",
+            "time": "t_29",
+            "livingRoom": {
+                "elecV": 0.06,
+                "gasV": 1.22
+            },
+            "kitchen": {
+                "elecV": 0.09,
+                "gasV": 3.44,
+                "waterV": 7
+            },
+            "bathRoom": {
+                "elecV": 0.07,
+                "gasV": 1.02,
+                "waterV": 12
+            },
+            "bedRoom1": {
+                "elecV": 0.15,
+                "gasV": 2.87
+            },
+            "bedRoom2": {
+                "elecV": 0.19,
+                "gasV": 1.6
+            }
+        },
+        {
+            "id": "d_30",
+            "time": "t_30",
+            "livingRoom": {
+                "elecV": 0.16,
+                "gasV": 3.31
+            },
+            "kitchen": {
+                "elecV": 0.22,
+                "gasV": 0.45,
+                "waterV": 11
+            },
+            "bathRoom": {
+                "elecV": 0.31,
+                "gasV": 3.02,
+                "waterV": 8
+            },
+            "bedRoom1": {
+                "elecV": 0,
+                "gasV": 0.67
+            },
+            "bedRoom2": {
+                "elecV": 0.18,
+                "gasV": 0.43
+            }
+        },
+        {
+            "id": "d_31",
+            "time": "t_31",
+            "livingRoom": {
+                "elecV": 0.2,
+                "gasV": 2.52
+            },
+            "kitchen": {
+                "elecV": 0.17,
+                "gasV": 0.92,
+                "waterV": 11
+            },
+            "bathRoom": {
+                "elecV": 0.09,
+                "gasV": 1.58,
+                "waterV": 6
+            },
+            "bedRoom1": {
+                "elecV": 0.23,
+                "gasV": 0.67
+            },
+            "bedRoom2": {
+                "elecV": 0.3,
+                "gasV": 0.04
+            }
+        },
+        {
+            "id": "d_32",
+            "time": "t_32",
+            "livingRoom": {
+                "elecV": 0.13,
+                "gasV": 0.19
+            },
+            "kitchen": {
+                "elecV": 0.26,
+                "gasV": 2.41,
+                "waterV": 13
+            },
+            "bathRoom": {
+                "elecV": 0.13,
+                "gasV": 2.34,
+                "waterV": 8
+            },
+            "bedRoom1": {
+                "elecV": 0.18,
+                "gasV": 0.28
+            },
+            "bedRoom2": {
+                "elecV": 0.01,
+                "gasV": 1.24
+            }
+        },
+        {
+            "id": "d_33",
+            "time": "t_33",
+            "livingRoom": {
+                "elecV": 0.08,
+                "gasV": 2.43
+            },
+            "kitchen": {
+                "elecV": 0.16,
+                "gasV": 1.71,
+                "waterV": 7
+            },
+            "bathRoom": {
+                "elecV": 0.27,
+                "gasV": 0.87,
+                "waterV": 9
+            },
+            "bedRoom1": {
+                "elecV": 0.28,
+                "gasV": 2.14
+            },
+            "bedRoom2": {
+                "elecV": 0.25,
+                "gasV": 0.9
+            }
+        },
+        {
+            "id": "d_34",
+            "time": "t_34",
+            "livingRoom": {
+                "elecV": 0.2,
+                "gasV": 3.19
+            },
+            "kitchen": {
+                "elecV": 0.31,
+                "gasV": 3.32,
+                "waterV": 8
+            },
+            "bathRoom": {
+                "elecV": 0.04,
+                "gasV": 2.15,
+                "waterV": 15
+            },
+            "bedRoom1": {
+                "elecV": 0.07,
+                "gasV": 2.45
+            },
+            "bedRoom2": {
+                "elecV": 0.2,
+                "gasV": 2.13
+            }
+        },
+        {
+            "id": "d_35",
+            "time": "t_35",
+            "livingRoom": {
+                "elecV": 0.14,
+                "gasV": 3.12
+            },
+            "kitchen": {
+                "elecV": 0.11,
+                "gasV": 0.41,
+                "waterV": 3
+            },
+            "bathRoom": {
+                "elecV": 0.01,
+                "gasV": 0.89,
+                "waterV": 3
+            },
+            "bedRoom1": {
+                "elecV": 0.16,
+                "gasV": 1.14
+            },
+            "bedRoom2": {
+                "elecV": 0.19,
+                "gasV": 2.55
+            }
+        },
+        {
+            "id": "d_36",
+            "time": "t_36",
+            "livingRoom": {
+                "elecV": 0.07,
+                "gasV": 2.18
+            },
+            "kitchen": {
+                "elecV": 0.06,
+                "gasV": 2.41,
+                "waterV": 10
+            },
+            "bathRoom": {
+                "elecV": 0.1,
+                "gasV": 1.25,
+                "waterV": 14
+            },
+            "bedRoom1": {
+                "elecV": 0.02,
+                "gasV": 0.27
+            },
+            "bedRoom2": {
+                "elecV": 0.27,
+                "gasV": 2.72
+            }
+        },
+        {
+            "id": "d_37",
+            "time": "t_37",
+            "livingRoom": {
+                "elecV": 0.11,
+                "gasV": 2.21
+            },
+            "kitchen": {
+                "elecV": 0.01,
+                "gasV": 0.94,
+                "waterV": 6
+            },
+            "bathRoom": {
+                "elecV": 0.25,
+                "gasV": 1.23,
+                "waterV": 5
+            },
+            "bedRoom1": {
+                "elecV": 0.3,
+                "gasV": 0.42
+            },
+            "bedRoom2": {
+                "elecV": 0.17,
+                "gasV": 3.44
+            }
+        },
+        {
+            "id": "d_38",
+            "time": "t_38",
+            "livingRoom": {
+                "elecV": 0.18,
+                "gasV": 0.92
+            },
+            "kitchen": {
+                "elecV": 0.1,
+                "gasV": 2.01,
+                "waterV": 12
+            },
+            "bathRoom": {
+                "elecV": 0.21,
+                "gasV": 2.41,
+                "waterV": 5
+            },
+            "bedRoom1": {
+                "elecV": 0.24,
+                "gasV": 2.24
+            },
+            "bedRoom2": {
+                "elecV": 0.04,
+                "gasV": 1.56
+            }
+        },
+        {
+            "id": "d_39",
+            "time": "t_39",
+            "livingRoom": {
+                "elecV": 0.28,
+                "gasV": 0.24
+            },
+            "kitchen": {
+                "elecV": 0.16,
+                "gasV": 1.41,
+                "waterV": 2
+            },
+            "bathRoom": {
+                "elecV": 0.22,
+                "gasV": 0.6,
+                "waterV": 9
+            },
+            "bedRoom1": {
+                "elecV": 0.17,
+                "gasV": 2.33
+            },
+            "bedRoom2": {
+                "elecV": 0.27,
+                "gasV": 0.4
+            }
+        },
+        {
+            "id": "d_40",
+            "time": "t_40",
+            "livingRoom": {
+                "elecV": 0.01,
+                "gasV": 1.37
+            },
+            "kitchen": {
+                "elecV": 0.04,
+                "gasV": 1.99,
+                "waterV": 12
+            },
+            "bathRoom": {
+                "elecV": 0.24,
+                "gasV": 0.85,
+                "waterV": 4
+            },
+            "bedRoom1": {
+                "elecV": 0.22,
+                "gasV": 0.96
+            },
+            "bedRoom2": {
+                "elecV": 0.22,
+                "gasV": 1.99
+            }
+        },
+        {
+            "id": "d_41",
+            "time": "t_41",
+            "livingRoom": {
+                "elecV": 0.12,
+                "gasV": 1.51
+            },
+            "kitchen": {
+                "elecV": 0.08,
+                "gasV": 2.18,
+                "waterV": 15
+            },
+            "bathRoom": {
+                "elecV": 0.22,
+                "gasV": 3.15,
+                "waterV": 5
+            },
+            "bedRoom1": {
+                "elecV": 0.07,
+                "gasV": 2.81
+            },
+            "bedRoom2": {
+                "elecV": 0.27,
+                "gasV": 2.55
+            }
+        },
+        {
+            "id": "d_42",
+            "time": "t_42",
+            "livingRoom": {
+                "elecV": 0.3,
+                "gasV": 2.73
+            },
+            "kitchen": {
+                "elecV": 0.3,
+                "gasV": 2.55,
+                "waterV": 4
+            },
+            "bathRoom": {
+                "elecV": 0.33,
+                "gasV": 2.43,
+                "waterV": 14
+            },
+            "bedRoom1": {
+                "elecV": 0.13,
+                "gasV": 2.27
+            },
+            "bedRoom2": {
+                "elecV": 0.08,
+                "gasV": 2.83
+            }
+        },
+        {
+            "id": "d_43",
+            "time": "t_43",
+            "livingRoom": {
+                "elecV": 0.31,
+                "gasV": 0.7
+            },
+            "kitchen": {
+                "elecV": 0.09,
+                "gasV": 0.91,
+                "waterV": 4
+            },
+            "bathRoom": {
+                "elecV": 0.33,
+                "gasV": 1.21,
+                "waterV": 6
+            },
+            "bedRoom1": {
+                "elecV": 0.19,
+                "gasV": 1.16
+            },
+            "bedRoom2": {
+                "elecV": 0.3,
+                "gasV": 3.24
+            }
+        },
+        {
+            "id": "d_44",
+            "time": "t_44",
+            "livingRoom": {
+                "elecV": 0.09,
+                "gasV": 3.41
+            },
+            "kitchen": {
+                "elecV": 0.23,
+                "gasV": 1.77,
+                "waterV": 12
+            },
+            "bathRoom": {
+                "elecV": 0.18,
+                "gasV": 0.95,
+                "waterV": 11
+            },
+            "bedRoom1": {
+                "elecV": 0.09,
+                "gasV": 2.25
+            },
+            "bedRoom2": {
+                "elecV": 0.26,
+                "gasV": 3.32
+            }
+        },
+        {
+            "id": "d_45",
+            "time": "t_45",
+            "livingRoom": {
+                "elecV": 0.06,
+                "gasV": 0.89
+            },
+            "kitchen": {
+                "elecV": 0.09,
+                "gasV": 0.67,
+                "waterV": 5
+            },
+            "bathRoom": {
+                "elecV": 0.21,
+                "gasV": 0.23,
+                "waterV": 5
+            },
+            "bedRoom1": {
+                "elecV": 0.06,
+                "gasV": 1.69
+            },
+            "bedRoom2": {
+                "elecV": 0.3,
+                "gasV": 3.43
+            }
+        },
+        {
+            "id": "d_46",
+            "time": "t_46",
+            "livingRoom": {
+                "elecV": 0.3,
+                "gasV": 0.45
+            },
+            "kitchen": {
+                "elecV": 0.02,
+                "gasV": 3.07,
+                "waterV": 13
+            },
+            "bathRoom": {
+                "elecV": 0.11,
+                "gasV": 1.31,
+                "waterV": 9
+            },
+            "bedRoom1": {
+                "elecV": 0.26,
+                "gasV": 2.69
+            },
+            "bedRoom2": {
+                "elecV": 0.03,
+                "gasV": 3.17
+            }
+        },
+        {
+            "id": "d_47",
+            "time": "t_47",
+            "livingRoom": {
+                "elecV": 0.24,
+                "gasV": 2.7
+            },
+            "kitchen": {
+                "elecV": 0.01,
+                "gasV": 3.44,
+                "waterV": 3
+            },
+            "bathRoom": {
+                "elecV": 0.14,
+                "gasV": 1.54,
+                "waterV": 11
+            },
+            "bedRoom1": {
+                "elecV": 0.31,
+                "gasV": 2.87
+            },
+            "bedRoom2": {
+                "elecV": 0.26,
+                "gasV": 1.14
+            }
+        }
+    ]
+}

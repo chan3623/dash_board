@@ -1,0 +1,116 @@
+doctype html
+html(lang="ko")
+    head
+        meta(charset="utf-8")
+        title Smart Home Dashboard
+        meta(name="viewport" content="width=device-width, initial-scale=1.0")
+        link(rel="stylesheet" href="/stylesheets/default.css")
+        link(rel="stylesheet" href="/stylesheets/admin.css")
+        link(rel="icon" href="/images/home.ico")
+        script(src="/javascripts/admin.js")
+
+    body
+        img.bg_img(src="/images/bg_home.jpg" alt="홈 화면 이미지")
+        //- header
+        div.home_box
+            nav.home_list
+                h1.home_tit Smart Home Dashboard
+                div.home_toggle
+                    div.home_info
+                        p#homeDate
+                        p
+                            span 사용자 
+                            | 님
+                    label(for="user")
+                        input#home_move(type="checkbox" role="switch" checked)
+            //- 날짜 선택 select
+            div.home_txt
+                select#selectHomeDate.home_date
+                p 입력 범위 : 전기 0 kwh ~ 0.33 kwh, 가스 0 MJ ~ 3.50 MJ, 수도 0 L ~ 15L
+
+            div.admin_table
+                div#adminHeadScroll.admin_table_head
+                    div.admin_head_scroll
+                        span 날씨 및 시간
+                        span 거실
+                        span 주방
+                        span 침실 1
+                        span 침실 2
+                        span 욕실
+                div.admin_table_body.none
+                    //- environment
+                    div#adminScroll.table_scroll
+                        div.admin_data_list
+                            div#dailyWeather.data_txt
+                            div.data_txt 
+                                p 실내 온도
+                                    span#livingTemperature
+                                p 실내 습도
+                                    span#livingHumidity
+                                p 공기 청정도
+                                    span#livingAirCondition
+                            div.data_txt 
+                                p 실내 온도
+                                    span#kitchenTemperature
+                                p 실내 습도
+                                    span#kitchenHumidity
+                                p 공기 청정도
+                                    span#kitchenAirCondition  
+                            div.data_txt
+                                p 실내 온도
+                                    span#bedTemperature1
+                                p 실내 습도
+                                    span#bedHumidity1
+                                p 공기 청정도
+                                    span#bedAirCondition1 
+                            div.data_txt 
+                                p 실내 온도
+                                    span#bedTemperature2
+                                p 실내 습도
+                                    span#bedHumidity2
+                                p 공기 청정도
+                                    span#bedAirCondition2
+                            div.data_txt 
+                                p 실내 온도
+                                    span#bathTemperature
+                                p 실내 습도
+                                    span#bathHumidity
+                                p 공기 청정도
+                                    span#bathAirCondition
+
+                //- energy
+                div.admin_table_body
+                    div#tableScroll.table_scroll
+
+                    //- 값이 들어가야할 list
+                        //- div.admin_data_list
+                        //-     div.data_txt 00
+                        //-     div.data_txt 
+                        //-         p 전기
+                        //-             span 000
+                        //-         p 가스
+                        //-             span 000
+                        //-     div.data_txt 
+                        //-         p 전기
+                        //-             span 000
+                        //-         p 가스
+                        //-             span 000
+                        //-         p 수도
+                        //-             span 000   
+                        //-     div.data_txt
+                        //-         p 전기
+                        //-             span 000
+                        //-         p 가스
+                        //-             span 000  
+                        //-     div.data_txt 
+                        //-         p 전기
+                        //-             span 000
+                        //-         p 가스
+                        //-             span 000
+                        //-     div.data_txt 
+                        //-         p 전기
+                        //-             span 000
+                        //-         p 가스
+                        //-             span 000
+                        //-         p 수도
+                        //-             span 000

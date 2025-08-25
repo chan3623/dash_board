@@ -1,0 +1,234 @@
+doctype html
+html(lang="ko")
+    head
+        meta(charset="utf-8")
+        title SMART HOME
+        meta(name="viewport" content="width=device-width, initial-scale=1.0")
+        link(rel="stylesheet" href="/stylesheets/default.css")
+        link(rel="stylesheet" href="/stylesheets/admin.css")
+        //link(rel="icon" href="home.ico")
+        //- script(src="https://cdn.jsdelivr.net/npm/p5@1.9.0/lib/p5.js")
+        script(src="/javascripts/admin.js")
+
+    body
+        //- div.m_home_toggle
+        //-     button.toggle_admin
+
+        img.bg_img(src="/images/bg_home.jpg" alt="홈 화면 이미지")
+        div.home_box
+            nav.home_list
+                h1.home_tit SMART HOME
+                div.home_toggle
+                    div.home_info
+                        p 2024년 06월 21일
+                        p
+                            span 사용자 
+                            | 님    
+                    //- button#homeStopStart.home_stop_start.stop_btn(type="button")
+                    label(for="user")
+                        input(type="checkbox" role="switch" id="home_move" checked)
+            div.home_txt
+                select#selectHomeDate.home_date
+                    option(value="today" seclected) 2024.01.01
+                    option(value="tomorrow") 2024.01.02
+                    option(value="") 2024.01.03
+                p 입력 범위 : 전기 0 kwh ~ 0.33 kwh, 가스 0 MJ ~ 3.50 MJ, 수도 0 L ~ 15L
+                //- button#registBtn 멈춤
+
+            div.admin_table
+                div.admin_table_head
+                    span 날씨 및 시간
+                    span 거실
+                    span 주방
+                    span 침실 1
+                    span 침실 2
+                    span 욕실
+                    span 기타
+                div.admin_table_body.none
+                    div.talble_scroll
+                        div.admin_data_list
+                            div#dailyWeather.data_txt 맑음
+                            div.data_txt 
+                                p 실내 온도
+                                    span#livingTemperature 000
+                                p 실내 습도
+                                    span#livingHumidity 000
+                                p 공기청정도
+                                    span#livingAirCondition 000
+                            div.data_txt 
+                                p 실내 온도
+                                    span#kitchenTemperature 000
+                                p 실내 습도
+                                    span#kitchenHumidity 000
+                                p 공기청정도
+                                    span#kitchenAirCondition 000  
+                            div.data_txt
+                                p 실내 온도
+                                    span#bedTemperature1 000
+                                p 실내 습도
+                                    span#bedHumidity1 000
+                                p 공기청정도
+                                    span#bedAirCondition1 000 
+                            div.data_txt 
+                                p 실내 온도
+                                    span#bedTemperature2 000
+                                p 실내 습도
+                                    span#bedHumidity2 000
+                                p 공기청정도
+                                    span#bedAirCondition2 000
+                            div.data_txt 
+                                p 실내 온도
+                                    span#bathTemperature 000
+                                p 실내 습도
+                                    span#bathHumidity 000
+                                p 공기청정도
+                                    span#bathAirCondition 000
+                            div.data_txt 
+
+                div.admin_table_body
+                    div#tableScroll.talble_scroll
+                        //- div.admin_data_list
+                        //-     div.data_txt 00
+                        //-     div.data_txt 
+                        //-         p 전기
+                        //-             span 000
+                        //-         p 가스
+                        //-             span 000
+                        //-     div.data_txt 
+                        //-         p 전기
+                        //-             span 000
+                        //-         p 가스
+                        //-             span 000
+                        //-         p 수도
+                        //-             span 000   
+                        //-     div.data_txt
+                        //-         p 전기
+                        //-             span 000
+                        //-         p 가스
+                        //-             span 000  
+                        //-     div.data_txt 
+                        //-         p 전기
+                        //-             span 000
+                        //-         p 가스
+                        //-             span 000
+                        //-     div.data_txt 
+                        //-         p 전기
+                        //-             span 000
+                        //-         p 가스
+                        //-             span 000
+                        //-         p 수도
+                        //-             span 000
+                        //-     div.data_txt 
+                        //-         button 수정
+                        //- div.admin_data_list
+                        //-     div.data_txt 00
+                        //-     div.data_txt 
+                        //-         p 전기
+                        //-             span 000
+                        //-         p 가스
+                        //-             span 000
+                        //-     div.data_txt 
+                        //-         p 전기
+                        //-             span 000
+                        //-         p 가스
+                        //-             span 000
+                        //-         p 수도
+                        //-             span 000   
+                        //-     div.data_txt
+                        //-         p 전기
+                        //-             span 000
+                        //-         p 가스
+                        //-             span 000  
+                        //-     div.data_txt 
+                        //-         p 전기
+                        //-             span 000
+                        //-         p 가스
+                        //-             span 000
+                        //-     div.data_txt 
+                        //-         p 전기
+                        //-             span 000
+                        //-         p 가스
+                        //-             span 000
+                        //-         p 수도
+                        //-             span 000
+                        //-     div.data_txt 
+                        //-         button 수정
+                        //- div.admin_data_list
+                        //-     div.data_txt 00
+                        //-     div.data_txt 
+                        //-         p 전기
+                        //-             span 000
+                        //-         p 가스
+                        //-             span 000
+                        //-     div.data_txt 
+                        //-         p 전기
+                        //-             span 000
+                        //-         p 가스
+                        //-             span 000
+                        //-         p 수도
+                        //-             span 000   
+                        //-     div.data_txt
+                        //-         p 전기
+                        //-             span 000
+                        //-         p 가스
+                        //-             span 000  
+                        //-     div.data_txt 
+                        //-         p 전기
+                        //-             span 000
+                        //-         p 가스
+                        //-             span 000
+                        //-     div.data_txt 
+                        //-         p 전기
+                        //-             span 000
+                        //-         p 가스
+                        //-             span 000
+                        //-         p 수도
+                        //-             span 000
+                        //-     div.data_txt 
+                        //-         button#changeBtn 수정
+                        //- div.admin_data_list
+                        //-     div.data_txt 03
+                        //-     div.data_txt 
+                        //-         div.admin_data_input
+                        //-             label(for="linvinRoomElec") 전기
+                        //-             input(type="number" id="linvinRoomElec" value="123")
+                        //-         div.admin_data_input
+                        //-             label(for="linvinRoomGass") 가스
+                        //-             input(type="number" id="linvinRoomGass" value="123")
+                        //-     div.data_txt 
+                        //-         div.admin_data_input
+                        //-             label(for="kitchenElec") 전기
+                        //-             input(type="number" id="kitchenElec" value="123")
+                        //-         div.admin_data_input
+                        //-             label(for="kitchenGass") 가스
+                        //-             input(type="number" id="kitchenGass" value="123")
+                        //-         div.admin_data_input
+                        //-             label(for="kitchenWater") 수도
+                        //-             input(type="number" id="kitchenWater" value="123")
+                        //-     div.data_txt
+                        //-         div.admin_data_input
+                        //-             label(for="bedRoomElec") 전기
+                        //-             input(type="number" id="bedRoomElec" value="123")
+                        //-         div.admin_data_input
+                        //-             label(for="bedRoomGass") 가스
+                        //-             input(type="number" id="bedRoomGass" value="123")
+                        //-     div.data_txt
+                        //-         div.admin_data_input
+                        //-             label(for="bedRoomElec") 전기
+                        //-             input(type="number" id="bedRoomElec" value="123")
+                        //-         div.admin_data_input
+                        //-             label(for="bedRoomGass") 가스
+                        //-             input(type="number" id="bedRoomGass" value="123")
+                        //-     div.data_txt
+                        //-         div.admin_data_input
+                        //-             label(for="bathRoomElec") 전기
+                        //-             input(type="number" id="bathRoomElec" value="123")
+                        //-         div.admin_data_input
+                        //-             label(for="bathRoomGass") 가스
+                        //-             input(type="number" id="bathRoomGass" value="123")
+                        //-         div.admin_data_input
+                        //-             label(for="bathRoomWater") 수도
+                        //-             input(type="number" id="bathRoomWater" value="123")
+                        //-     div.data_txt
+                        //-         button(type="button") 저장
+                        //-         button(type="button") 취소

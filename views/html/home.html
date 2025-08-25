@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="utf-8">
+    <title>SMART HOME</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="../../public/stylesheets/default.css">
+    <link rel="stylesheet" type="text/css" href="../../public/stylesheets/home.css">
+    <!--link(rel="icon" href="home.ico")-->
+    <script src="https://cdn.jsdelivr.net/npm/p5@1.9.0/lib/p5.js"></script>
+    <script src="../../public/javascripts/donut_graph.js"></script>
+    <script src="../../public/javascripts/today_bar_graph.js"></script>
+    <script src="../../public/javascripts/line_graph_030806.js"></script>
+    <script src="../../public/javascripts/7bar_graph_0308.js"></script>
+    <script src="../../public/javascripts/home.js"></script>
+  </head>
+  <body><img class="bg_img" src="../../public/images/bg_home.jpg" alt="홈 화면 이미지">
+    <div class="home_box">
+      <div class="home_list">
+        <h1 class="home_tit">SMART HOME</h1>
+        <div class="home_toggle">
+          <div class="home_info">
+            <p>2024년 06월 21일</p>
+            <p><span>사용자 </span>님    </p>
+          </div>
+          <button class="home_stop_start stop_btn" id="homeStopStart" type="button"></button>
+          <label for="user">
+            <input type="checkbox" role="switch">
+          </label>
+        </div>
+      </div>
+      <div class="body_flex">
+        <section class="energy_box">
+          <article class="energy_list_box">
+            <h2>최근 3시간 에너지 사용량</h2>
+            <div class="flex">
+              <div class="graph_on" id="ele_graph"></div>
+              <div class="graph_on" id="gas_graph"></div>
+              <div class="graph_on" id="water_graph"></div>
+            </div>
+          </article>
+          <article class="energy_list_box">
+            <div class="flex">
+              <h2>오늘 시간대별 에너지 사용량</h2>
+              <div class="energy_list_tab">
+                <ul>
+                  <li> 
+                    <button class="on" id="day_ele_Data_btn" type="button">전기</button>
+                  </li>
+                  <li> 
+                    <button id="day_gas_Data_btn" type="button">가스</button>
+                  </li>
+                  <li> 
+                    <button id="day_water_Data_btn" type="button">수도</button>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="graph_box">
+              <div class="graph graph_on" id="day_ele_graph"></div>
+              <div class="graph" id="day_gas_graph"></div>
+              <div class="graph" id="day_water_graph"></div>
+            </div>
+          </article>
+          <article class="energy_list_box">
+            <div class="flex">
+              <h2>7일 에너지 사용량</h2>
+              <div class="energy_list_tab">
+                <ul>
+                  <li> 
+                    <button class="on" id="month_ele_Data_btn" type="button">전기</button>
+                  </li>
+                  <li> 
+                    <button id="month_gas_Data_btn" type="button">가스</button>
+                  </li>
+                  <li> 
+                    <button id="month_water_Data_btn" type="button">수도</button>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="graph_box">
+              <div class="graph graph_on" id="month_ele_graph"></div>
+              <div class="graph" id="month_gas_graph"></div>
+              <div class="graph" id="month_water_graph"></div>
+            </div>
+          </article>
+          <article class="energy_list_box">
+            <h2>현재 누적 예상 금액</h2>
+            <div class="flex">
+              <div class="graph_on_donut" id="donut_graph"></div>
+              <div class="graph_txt">
+                <p class="money_elec">전기<span id="money_elec">123,000</span>원</p>
+                <p class="money_gass">가스<span id="money_gass">23,000</span>원</p>
+                <p class="money_water">수도<span id="money_water">3,000</span>원</p>
+                <p class="total_txt">총 예상 금액<span id="money_result">223,000</span>원</p>
+              </div>
+            </div>
+          </article>
+        </section>
+        <aside class="environment_box">
+          <div class="weather_box">
+            <div class="weather_icon" id="weather_icon"></div>
+            <div class="weather_txt_box">
+              <p class="weather_address">경기도 안산시 단원구</p>
+              <p class="weather_txt"> <span>20</span>°C</p>
+            </div>
+          </div>
+          <div class="environment_list">
+            <p class="tit">실내 온도</p>
+            <p class="txt"><span id="average_temperature">20</span>°C</p>
+          </div>
+          <div class="environment_list">
+            <p class="tit">습도</p>
+            <p class="txt"> <span id="average_humidity">20</span>%</p>
+          </div>
+          <div class="environment_list">
+            <p class="tit">공기청정도</p>
+            <p class="txt environment_icon verygood"><span id="average_air_condition">매우 좋음     </span></p>
+          </div>
+        </aside>
+      </div>
+    </div>
+  </body>
+</html>

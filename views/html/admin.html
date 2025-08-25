@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="utf-8">
+    <title>SMART HOME</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../public/stylesheets/default.css">
+    <link rel="stylesheet" href="../../public/stylesheets/admin.css">
+    <!--link(rel="icon" href="home.ico")-->
+    <script src="https://cdn.jsdelivr.net/npm/p5@1.9.0/lib/p5.js"></script>
+    <script src="../../public/javascripts/admin_02.js"></script>
+  </head>
+  <body><img class="bg_img" src="../../public/images/bg_home.jpg" alt="홈 화면 이미지">
+    <div class="home_box">
+      <nav class="home_list">
+        <h1 class="home_tit">SMART HOME</h1>
+        <div class="home_toggle">
+          <div class="home_info">
+            <p>2024년 06월 21일</p>
+            <p><span>사용자 </span>님    </p>
+          </div>
+          <label for="user">
+            <input type="checkbox" role="switch">
+          </label>
+        </div>
+      </nav>
+      <div class="home_txt">
+        <select class="home_date" id="selectHomeDate">
+          <option value="today" seclected>2024.01.01</option>
+          <option value="tomorrow">2024.01.02</option>
+          <option value="">2024.01.03</option>
+        </select>
+        <p>입력 범위 : 전기 0 kwh ~ 0.33 kwh, 가스 0 MJ ~ 3.50 MJ, 수도 0 L ~ 15L</p>
+      </div>
+      <div class="admin_table">
+        <div class="admin_table_head"><span>날씨 및 시간</span><span>거실</span><span>주방</span><span>침실 1</span><span>침실 2</span><span>욕실</span><span>기타</span></div>
+        <div class="admin_table_body none">
+          <div class="talble_scroll">
+            <div class="admin_data_list">
+              <div class="data_txt" id="dailyWeather">맑음</div>
+              <div class="data_txt"> 
+                <p>실내 온도<span id="livingTemperature">000</span></p>
+                <p>실내 습도<span id="livingHumidity">000</span></p>
+                <p>공기청정도<span id="livingAirCondition">000</span></p>
+              </div>
+              <div class="data_txt"> 
+                <p>실내 온도<span id="kitchenTemperature">000</span></p>
+                <p>실내 습도<span id="kitchenHumidity">000</span></p>
+                <p>공기청정도<span id="kitchenAirCondition">000  </span></p>
+              </div>
+              <div class="data_txt">
+                <p>실내 온도<span id="bedTemperature1">000</span></p>
+                <p>실내 습도<span id="bedHumidity1">000</span></p>
+                <p>공기청정도<span id="bedAirCondition1">000 </span></p>
+              </div>
+              <div class="data_txt"> 
+                <p>실내 온도<span id="bedTemperature2">000</span></p>
+                <p>실내 습도<span id="bedHumidity2">000</span></p>
+                <p>공기청정도<span id="bedAirCondition2">000</span></p>
+              </div>
+              <div class="data_txt"> 
+                <p>실내 온도<span id="bathTemperature">000</span></p>
+                <p>실내 습도<span id="bathHumidity">000</span></p>
+                <p>공기청정도<span id="bathAirCondition">000</span></p>
+              </div>
+              <div class="data_txt"> </div>
+            </div>
+          </div>
+        </div>
+        <div class="admin_table_body">
+          <div class="talble_scroll" id="tableScroll"></div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
